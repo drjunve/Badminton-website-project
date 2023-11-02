@@ -1,0 +1,23 @@
+{
+  "name": "badminton",
+  "version": "1.0.0",
+  "description": "forsass",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "compile-sass": "node-sass footer.sass footer.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drjunve/Badminton-website-project.git"
+  },
+  "author": "junve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drjunve/Badminton-website-project/issues"
+  },
+  "homepage": "https://github.com/drjunve/Badminton-website-project#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
