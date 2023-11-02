@@ -4,16 +4,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	
 	<style>
 		html {
-			background-color: rgb(120, 160, 193);
+			background-color: rgb(50, 52, 80);
 			text-align: center;
 			
 		}
 
 		.footer {
 			width: 1200px;
-			border: 3px dotted violet;
+			padding: 50px;
 			text-align: center;
 			display: inline-block;
 		}
@@ -21,23 +22,27 @@
 			display: inline-block;
 			vertical-align:text-top;
 			text-align: left;
-			
+			color: rgb(169, 169, 169);
 		}
 
+		a {
+ 			color: white;
+    		text-decoration: none;
+		}
 	</style>
 </head>
 <body>
 	<footer>
 
 		<div class="footer">
-			<div style="border: 1px solid orange;" class="footer_child">
+			<div class="footer_child">
 				<IMG src="/res/img/logo(white).png" width="130px"></IMG>
 			</div>
 
-			<div style="border: 1px solid yellow; margin-left: 20px; margin-right: 20px;" class="footer_child">
+			<div style="margin-left: 20px; margin-right: 20px;" class="footer_child">
 				<nav>
-					<a href='https://' target='_blank'>개인정보처리방침</a> /
-					<a href='https://' target='_blank'>이메일 무단 수집 거부</a> /
+					<a href='https://' target='_blank' >개인정보처리방침</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+					<a href='https://' target='_blank'>이메일 무단 수집 거부</a> &nbsp;&nbsp;/&nbsp;&nbsp;
 					<a href='https://' target='_blank'>관리자 페이지</a>
 				</nav>
 				<br>
@@ -46,11 +51,19 @@
 				<span>Copyright 2023. GANGSEO-GU BADMINTON ASSOCIATION. All Rights Reserved.</span>
 			</div>
 
-			<div style="border: 1px solid green" class="footer_child">
-				<span>입금계좌</span><br>
-				<span>NH농협</span><br>
-				<span>123.1234.1234.12</span><br>
-				<span>강서구 배드민턴 협회</span>
+			<div class="footer_child">
+				<select name="" id="" value="패밀리사이트">
+					<option value="제주">제주특별자치도배드민턴협회</option>
+					<option value="서귀포">서귀포시 배드민턴협회</option>
+					<option value="제주체육회">제주시 체육회</option>
+					<option value="대한">대한배드민턴협회</option>
+					<option value="">제주시 체육회</option>
+					<option value="">제주시 체육회</option>
+					<option value="">제주시 체육회</option>
+					<option value="">제주시 체육회</option>
+				</select><br><br>
+				<img src="/res/img/account.png" alt="" width="200px">
+				
 			</div>
 
 		</div>
